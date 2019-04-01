@@ -1,6 +1,10 @@
 # os-assignment
 #include<stdio.h> 
  
+ 
+ 
+ 
+ 
 int main() 
 { 
  
@@ -9,7 +13,7 @@ int main()
   printf("Enter Total Process:\t "); 
   scanf("%d",&n); 
   remain=n; 
-    for(count=0;count<n;count++) 
+  for(count=0;count<n;count++) 
   { 
     printf("Enter Arrival Time  %d :",count+1); 
     scanf("%d",&arrival_time[count]); 
